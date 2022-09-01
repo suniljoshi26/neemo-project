@@ -1,0 +1,188 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+  
+/* onscroll */
+nav{
+    background-color:rgb(0, 0, 0);
+   
+    
+}
+
+nav a{
+    color: white;
+}
+.bgColor{
+    background-color:white ;
+    color: black;
+    transition: 1s;
+    border-bottom: 4px solid  rgb(185, 196, 214);
+}
+.bgColor a{
+    color: black;
+}
+.bgColor a:hover{
+    color: blue;
+    padding: 10px;
+   
+}
+/* onscroll */
+
+.bg-image{
+    background-image: url('https://adus.tech/wp-content/uploads/2020/03/custom_soft.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    
+}
+.bg-image .contaner{
+    margin: auto 0 auto  40px;
+    padding: 20px;
+    
+
+}
+.heading{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font:bolder;
+    font-weight: 100px;
+    font-size: 80px;
+  
+    
+}
+.heading-2{
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font:bold;
+    font-weight: 100px;
+    font-size: 80px;
+    margin-left: 20px;
+}
+.second-bg{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    margin-top: 40px;
+      gap: 60px;
+    
+
+}
+.second-bg div img{
+    width: 700px;;
+}
+ h1{
+   margin-top: 40px;
+
+font-size:70px;
+font: bolder;
+font-family:  Arial, Helvetica, sans-serif;
+
+}
+
+
+
+    
+
+.border{
+    border-radius: 20px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    color: white;
+  
+}
+
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px ;
+    gap: 10px;
+    margin-bottom: 40px;
+   
+    
+}
+.box img{
+    width: 150px;
+}
+.boxitem{
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 0 20px #00000030;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2rem gray;
+
+}
+.boxitem a{
+    color: 
+    grey;
+    font-size: large;
+    text-decoration: none;
+    font: bold;
+
+}
+.boxitem a:hover{
+    color: blue;
+
+}
+
+/* Squarbob */
+.squarediv1{
+    background-color: rgb(237, 235, 235);
+    padding: 40px; 
+;
+}
+.squarediv1 h3{
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 500;
+    font-size:40px;
+}
+
+.Squarediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    gap: 100px;
+   margin-bottom: 100px;
+
+}
+
+.squarbox{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 5px solid #0101014f;
+    position: relative;
+    transform: rotate(45deg);
+    
+}
+.squarbox p{
+    transform: rotate(-45deg);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 30px;
+}
+.contactdiv{
+    text-align: center;
+    margin-bottom: 40px;
+  
+}
+.btn{
+    border:solid;
+    border-radius: 20px;
+    border-color: rgb(118, 118, 240);
+    color: rgb(66, 66, 125);
+    margin-top: 20px;
+}
+
